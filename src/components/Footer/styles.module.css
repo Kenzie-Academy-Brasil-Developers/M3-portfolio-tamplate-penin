@@ -1,0 +1,66 @@
+.Footer{
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 25px;
+    
+
+    margin-top: 3.125rem;
+}
+
+.Hr{
+    color: var(--ColorWhite);
+    width: 100%;
+}
+
+.ImgContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .9375rem;
+
+}
+
+.Footer > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1.25rem;
+
+    width: 80%;
+}
+
+.Container{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+@media(min-width: 988px){
+    .Footer > div{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .Container{
+        align-items: flex-start;
+    }
+    .ImgContainer{
+        justify-content: flex-start;
+    }
+}
+
+
+
+

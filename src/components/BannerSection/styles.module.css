@@ -1,0 +1,30 @@
+.bannerSection{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.875rem;
+
+    
+}
+
+.bannerSection > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.bannerSection > div > label{
+    color: var(--Color-primary);
+    font: var(--Label);
+}
+
+.bannerSection > img{
+    margin-top: 1.5625rem;
+}
+
+.BannerImg{
+    min-width: clamp(280px, 10vw, 500px);
+    
+    max-height: 266px;
+}
+

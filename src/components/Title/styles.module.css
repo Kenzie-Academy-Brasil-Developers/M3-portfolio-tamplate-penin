@@ -1,0 +1,10 @@
+.mainTitle{
+    font-weight: 800;
+    
+    font-size: clamp(2.5rem, 10vw, 2.125rem);
+    line-height: 3.1875rem;
+    font-style: normal;
+    max-width: 20rem;
+    min-width: 9.975rem;
+}
+

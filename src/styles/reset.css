@@ -1,0 +1,62 @@
+:root {
+	--Color-primary: #6880ff;
+    --Color-primary-hover: #7C91FF;
+	--ColorWhite: #ffffff;
+	--ColorBackground: linear-gradient(to bottom, #0c0c0c 0%,#0c0c0c 100%);
+     
+
+    /* Fonts */
+    --Title-1: bold 3rem/2.625rem 'Inter', sans-serif;
+    --Title-2: bold 40px/36px 'Inter', sans-serif;
+    --Title-3: bold 1.375rem 'Inter', sans-serif;
+    --Label: regular .875rem 'Inter', sans-serif;
+    --Link: bold 1rem 'Inter', sans-serif;
+    --paragraph: regular 1rem 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+body{
+    background: var(--ColorBackground);
+    color: var(--ColorWhite);
+    -webkit-font-smoothing: antialiased;
+
+    overflow-x: hidden;
+
+    padding: 1.25rem 1.25rem 0rem 1.25rem;    
+}
+
+body , input, button{
+    font-family: 'Inter', sans-serif;
+}
+
+button, a{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: var(--ColorWhite);
+}
+
+section{
+    margin-top: 30px;
+}
+
+@media (min-width: 700px){
+    body{
+        padding: 20px 100px;
+    }
+}

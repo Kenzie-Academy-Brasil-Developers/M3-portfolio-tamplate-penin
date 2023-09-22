@@ -1,0 +1,15 @@
+.MainLink{
+    text-decoration: none;
+
+    color: var(--Color-primary-hover);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.MainLink:hover{
+    color: var(--Color-primary);
+    transition: 0.5s;
+}

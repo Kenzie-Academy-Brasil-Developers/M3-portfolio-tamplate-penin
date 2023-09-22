@@ -1,0 +1,18 @@
+.mainButton{
+    width: 114px;
+    height: 40px;
+
+    background: var(--Color-primary);
+    color: var(--ColorWhite);
+
+    border: 1px solid var(--ColorWhite);
+    border-radius: 12px;
+
+    font-weight: 600;
+    font-size: .875rem;
+}
+
+.mainButton:hover{
+    background: var(--Color-primary-hover);
+    transition: 0.5s;
+}

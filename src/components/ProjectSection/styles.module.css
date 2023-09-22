@@ -1,0 +1,9 @@
+.Section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+
+    margin-top: 1.5625rem;
+
+    list-style-type: none;
+}

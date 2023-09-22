@@ -1,0 +1,19 @@
+.mainList{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5625rem;
+
+    margin-top: 1.5625rem;
+
+    list-style-type: none;
+    
+}
+
+@media(min-width: 988px){
+    .mainList{        
+        
+        flex-direction: row;
+        
+    }
+}

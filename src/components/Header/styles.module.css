@@ -1,0 +1,26 @@
+.mainHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.headerNav{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 2.5rem;
+}
+
+
+.headerImg{
+    width: 70px;
+    height: 13px;
+}
+
+@media (min-width: 700px){
+    .mainHeader{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
