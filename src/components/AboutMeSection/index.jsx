@@ -5,10 +5,10 @@ import { Paragraph } from '../Paragraph'
 export const AboutMe = () => {
     return(
         <section className={styles.container}>
-            <Title text={'Sobre mim'}/>
+            <Title>Sobre Mim</Title>
             <Paragraph 
             text={
-                "Tenho 22 anos e sou uma pessoa comunicativa, apaixonada por aprender coisas novas e também por ensinar. Adoro interagir com os outros e tenho uma mente curiosa que está sempre em busca de conhecimento. Compartilhar o que aprendo é uma das coisas que mais me entusiasmam."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna, imperdiet sodales sem quis, sollicitudin lobortis purus. Etiam a ipsum finibus, dictum leo non, ultrices dui. Nunc id felis pharetra, vehicula enim in, suscipit nisi. Mauris eget sapien a velit facilisis ullamcorper feugiat nec orci. Duis ac iaculis turpis, at feugiat orci."
             }
             />
             

@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
 
-export const Title = ({text}) => {
+export const Title = ({children}) => {
     return(
-        <h2 className={styles.mainTitle}>{text}</h2>
+        <h2 className={styles.mainTitle}>{children}</h2>
     )
 }

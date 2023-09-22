@@ -12,7 +12,8 @@ export const Footer = () => {
             <hr className={styles.Hr}/>
             <div>
                 <div className={styles.Container}>
-                    <Title text={'Contato'}/>
+                    <Title>Contato</Title>
+
                     <div className={styles.ImgContainer}>
                         <img src={WhatsAppLogo} alt="Logo marca do whatsapp" />
                         <img src={LinkedinLogo} alt="Logo marca do site linkedin" />

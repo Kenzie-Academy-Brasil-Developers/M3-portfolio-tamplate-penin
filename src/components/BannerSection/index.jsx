@@ -10,8 +10,8 @@ export const BannerSection = () => {
         <section className={styles.bannerSection}>
             <div>
                 <label>{user}</label>
-                <Title text={'Bem vindo ao meu portfolio'}/>
-                <Paragraph text={"O conhecimento é como uma moeda: para ter valor, deve circular, ser gasto e usado para algo mais do que simplesmente guardá-lo."}/>
+                <Title>Bem vindo ao meu portfolio</Title>
+                <Paragraph text={"uma frase interessante sobre mim "}/>
                 <Button text={'Saiba mais'}/>
             </div>
             <img className={styles.BannerImg} src={banner} alt="banner do portfolio" />
