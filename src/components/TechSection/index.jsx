@@ -7,7 +7,7 @@ import { List } from '../List'
 export const TechSection = () => {
     return(
         <section className={styles.techSection}>
-            <Title text={'Tecnologias'}/>
+            <Title>Tecnologias</Title>
             <List />
         </section>
         

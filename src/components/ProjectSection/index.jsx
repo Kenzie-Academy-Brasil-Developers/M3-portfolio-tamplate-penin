@@ -5,7 +5,7 @@ import { ListProject } from '../ListProject'
 export const ProjectSection = () => {
     return (
         <section className={styles.Section}>
-            <Title text={'Projetos'}/>
+            <Title>Projetos</Title>
             <ListProject />
         </section>
     )

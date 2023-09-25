@@ -4,6 +4,7 @@ import { Paragraph } from '../Paragraph'
 
 export const AboutMe = () => {
     return(
+        
         <section className={styles.container}>
             <Title>Sobre Mim</Title>
             <Paragraph 
